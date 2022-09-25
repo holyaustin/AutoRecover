@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import { React, useState } from "react";
-import ReactHlsPlayer from "react-hls-player";
+// import ReactHlsPlayer from "react-hls-player";
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
 import SEO from 'components/seo';
@@ -53,6 +53,7 @@ export default function Liveclass() {
             aria-describedby="set-hls-url"
             onChange={(e) => setHlsUrl(e.target.value)}
           />
+          {/**
           <ReactHlsPlayer
             src={hlsUrl}
             autoPlay={false}
@@ -61,7 +62,7 @@ export default function Liveclass() {
             width="100%"
             height="auto"
           />
-          {/**
+          
           <div className="-bg-white border shadow rounded-xl overflow-hidden">
 
             <video id="stream" className="object-fill h-400 w-full" width="100%" height="450px" controls>

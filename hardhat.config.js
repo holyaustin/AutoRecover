@@ -13,6 +13,11 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
     },
 
+  aurora: {
+      url: 'https://testnet.aurora.dev', // 'https://rpc-mumbai.matic.today'
+      accounts: [process.env.PRIVATE_KEY],
+    },
+
     polygon: {
       url: 'https://polygon-rpc.com', // [process.env.POLYGON_RPC], 
       accounts: [process.env.PRIVATE_KEY],

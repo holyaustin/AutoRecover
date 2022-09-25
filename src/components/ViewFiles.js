@@ -48,7 +48,7 @@ export default function ViewFiles() {
         name: meta.data.name,
         description: meta.data.description,
         sharelink: getIPFSGatewayURL(meta.data.image),
-        vin: meta.data.properties.vin,
+        //vin: meta.data.properties.vin,
       };
       console.log("item returned is ", item);
       

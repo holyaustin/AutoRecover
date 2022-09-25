@@ -28,7 +28,13 @@ The smart contract uses ERC-721 specification to hold metadata URI, ethers.js wa
 Live Dapp on Vercel: - https://auto-recover.vercel.app/
 
 Deployed to Polygon Mumbai: 
-  export const fileShareAddress = "0x6936E43A3f9983875E32C967eB801686d51a6119"
+  export const fileShareAddress = "0x97018a486c7e0824d88Ebb03D2b4DDea5968684A"
+
+  Deployed to Aurora: 
+   0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
+https://testnet.aurorascan.dev/address/0xe078fe7a93017f8e18c1c52e79632d0b94c56c26
+
+   0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11
 
 Youtube video link: https://youtu.be/4hIymL5lCs0
 
