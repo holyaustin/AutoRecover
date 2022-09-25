@@ -17,10 +17,11 @@ export default function IndexPage() {
           description="Car recovery system using the web3"
         />
         <Banner />
+        {/**
         <Services />
         <UltimateFeatures />
         <Faq />
-{/**
+
  *      <PremiumFeature />
         <CustomerSupport />
         <Pricing />
