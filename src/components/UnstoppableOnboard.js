@@ -26,12 +26,19 @@ const OPTIMISM_RPC_URL = 'https://opt-mainnet.g.alchemy.com/v2/4iPSn5hKKNYRUYWzx
 
 const uauth = new UAuth({
   clientID: "799e8827-4773-4b5d-b8bf-c48d7ff64fb6",
+  redirectUri: "https://auto-recover.vercel.app/dashboard",
+  scope: "openid wallet",
+})
+
+/*
+const uauth = new UAuth({
+  clientID: "799e8827-4773-4b5d-b8bf-c48d7ff64fb6",
   redirectUri: process.env.NODE_ENV === "production"
-  ? "https://auto-recover.vercel.app"
-  : "http://127.0.0.1:3016",
-  // fallbackIssuer: process.env.REACT_APP_FALLBACK_ISSUER!,
+  ? "https://auto-recover.vercel.app/dashboard"
+  : "http://127.0.0.1",
   scope: 'openid wallet',
 })
+*/
 
 const uauthBNCOptions = {
   uauth: uauth,
